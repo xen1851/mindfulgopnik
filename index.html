@@ -17,48 +17,46 @@
     .container {
       max-width: 600px;
       margin: 0 auto;
-      padding: 48px 20px 64px;
+      padding: 80px 20px 100px; /* вместо 20vh */
       line-height: 1.6;
-      text-align: center; 
+      text-align: center;
     }
 
     h1 {
       font-size: 2rem;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.25rem;
     }
 
     .subtitle {
       font-weight: 600;
-      margin-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
     }
 
     .cover {
       width: 100%;
-      max-width: 420px;
+      max-width: 320px; /* КЛЮЧЕВО */
+      margin: 0 auto 2.5rem;
       display: block;
-      margin: 24px 0 28px;
     }
 
     p {
       margin: 0.6rem 0;
     }
 
-    .stack p {
-      margin: 0.25rem 0;
-    }
-
     .spacer {
-      height: 1.5rem;
+      height: 1.8rem;
     }
 
     .muted {
       color: #555;
+      margin-top: 3rem;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
+
     <h1>Mindful Gopnik</h1>
 
     <div class="subtitle">
@@ -72,11 +70,9 @@
       alt="Mindful Gopnik journal cover"
     />
 
-    <div class="stack">
-      <p>This is not therapy.</p>
-      <p>Not motivation.</p>
-      <p>Not self-improvement.</p>
-    </div>
+    <p>This is not therapy.</p>
+    <p>Not motivation.</p>
+    <p>Not self-improvement.</p>
 
     <div class="spacer"></div>
 
@@ -92,9 +88,8 @@
     <p>Come back later.</p>
     <p>Nothing breaks.</p>
 
-    <div class="spacer"></div>
-
     <p class="muted">Available on Amazon.</p>
+
   </div>
 </body>
 </html>
